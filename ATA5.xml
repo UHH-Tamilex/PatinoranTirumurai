@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>5</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA5">
+<l>iṟaivaṉē yevvuyirun tōṟṟuvippāṉ ṟōṟṟi</l>
+<l>yiṟaivaṉē yīṇṭiṟakkañ ceyvā - ṉiṟaivaṉē</l>
+<l>yentā yeṉaviraṅku meṅkaḷmēl ventuyaram</l>
+<l>vantā latumāṟṟu vāṉ</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The lord, he makes appear all life. Having made it appear,</l>
+<l>the lord, he makes destruction here. The lord,</l>
+<l>when hot misery comes upon us, who lament “o father”,</l>
+<l>he will change that.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA5"><interp type="alignment" select="0">7MG9MG26MG5MG21MG53M,63MG62M</interp>
+<entry>
+<form>iṟaivaṉ-ē</form>
+<def>lord</def>
+<form type="simple">iṟaivaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>e<c type="geminated">v</c></form>
+<def>what-</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>uyir-um</form>
+<def>life</def>
+<form type="simple">uyir</form>
+<form type="sandhi"><c type="glide">v</c>uyir</form>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tōṟṟuvippāṉ</form>
+<def>he makes appear</def>
+<gramGrp>
+  <gram type="role">causative</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tōṟṟi</form>
+<def>made-appear</def>
+<form type="sandhi">ṟōṟṟi</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṟaivaṉ-ē</form>
+<def>lord</def>
+<form type="simple">iṟaivaṉ</form>
+<form type="sandhi"><c type="glide">y</c>iṟaivaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>īṇṭ<c type="elided">u</c></form>
+<def>here</def>
+<form type="sandhi"><c type="glide">y</c>īṇṭ</form>
+</entry>
+<entry>
+<form>iṟakkam</form>
+<def>destruction</def>
+<form type="sandhi">iṟakkañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyvāṉ</form>
+<def>he makes</def>
+<form type="sandhi">ceyvā-ṉ</form>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaivaṉ-ē</form>
+<def>lord</def>
+<form type="simple">iṟaivaṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>entāy</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉa</form>
+<def>say</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>iraṅkum</form>
+<def>lamenting</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkaḷ</form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+</entry>
+<entry>
+<form>vem</form>
+<def>hot</def>
+<form type="sandhi">ven</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuyaram</form>
+<def>misery</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vantāl</form>
+<def>come-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>atu</form>
+<def>that</def>
+</entry>
+<entry>
+<form>māṟṟuvāṉ</form>
+<def>he will change</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
