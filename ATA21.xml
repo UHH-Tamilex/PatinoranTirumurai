@@ -16,7 +16,7 @@
           <msIdentifier>
           </msIdentifier>
            <msContents>
-            <summary><p></p>
+            <summary><p/>
             </summary>
           </msContents>    
         </msDesc>
@@ -42,7 +42,8 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#ATA21"><interp type="alignment" select="0">4MG27MG14MG9MG22MG9MG14MG7M,51MG61M</interp>
+<standOff type="wordsplit" corresp="#ATA21">
+<interp type="alignment" select="0">4MG27MG14MG9MG22MG23MG7M,51MG60M</interp>
 <entry>
 <form>avaṉ-ē</form>
 <def>that-one</def>
@@ -177,16 +178,8 @@
 </gramGrp>
 </entry>
 <entry>
-<form>ñāṉa-</form>
-<def>knowledge-</def>
-<form type="sandhi">ñāṉa</form>
-<gramGrp>
-  <gram type="role">noun</gram>
-</gramGrp>
-</entry>
-<entry>
-<form>mayaṉ</form>
-<def>consist-he</def>
+<form>ñāṉamayaṉ</form>
+<def>knowledge-consist-he</def>
 <gramGrp>
   <gram type="role">masculine singular</gram>
 </gramGrp>
@@ -216,5 +209,6 @@
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
-</entry></standOff>
+</entry>
+</standOff>
 </TEI>
