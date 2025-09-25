@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>33</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA33">
+<l>nūlaṟivu pēci nuḻaivilā tārtirika</l>
+<l>nīla maṇimiṭaṟṟā ṉīrmaiyē - mēlulanta</l>
+<l>tekkōlat tevvuruvā yettavaṅkaḷ ceyvārkku</l>
+<l>makkōlat tavvuruvē yām</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Speaking of the knowledge from treatises let those without subtelty roam about.</l>
+<l>Surpassing is the nature of him with a blue saphire throat.</l>
+<l>For those who do whatever penance as to whatever beauty, to whatever form,</l>
+<l>that beauty, that form will be [his].</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA33"><interp type="alignment" select="0">18MG17ML11ML5MG13MG8MG7MG20M2G10MG7M2G4M,57MG74M</interp>
+<entry>
+<form>nūl</form>
+<def>treatise</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṟivu</form>
+<def>knowledge</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēci</form>
+<def>spoken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nuḻaiv<c type="elided">u</c></form>
+<def>subtelty</def>
+<form type="sandhi">nuḻaiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilātār</form>
+<def>not-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tirika</form>
+<def>may-roam</def>
+<gramGrp>
+  <gram type="role">optative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīlam</form>
+<def>blue</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṇi</form>
+<def>sapphire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṭaṟṟāṉ</form>
+<def>throat-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīrmai-<c type="glide">y</c>ē</form>
+<def>nature</def>
+<form type="simple">nīrmai</form>
+<form type="sandhi">ṉīrmai</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+</entry>
+<entry>
+<form>ulantat<c type="elided">u</c></form>
+<def>being perfect</def>
+<form type="sandhi">ulantat</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>e<c type="geminated">k</c></form>
+<def>what-</def>
+</entry>
+<entry>
+<form>kōlatt<c type="elided">u</c></form>
+<def>beauty</def>
+<form type="sandhi">kōlatt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>e<c type="geminated">v</c></form>
+<def>what-</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>uruv<c type="elided">u</c></form>
+<def>form</def>
+<form type="sandhi"><c type="glide">v</c>uruv</form>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>e<c type="geminated">t</c></form>
+<def>what-</def>
+</entry>
+<entry>
+<form>tavaṅkaḷ</form>
+<def>penances</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyvārkk<c type="elided">u</c>-um</form>
+<def>do-they</def>
+<form type="simple">ceyvārkku</form>
+<form type="sandhi">ceyvārkk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">k</c></form>
+<def>that-</def>
+</entry>
+<entry>
+<form>kōlatt<c type="elided">u</c></form>
+<def>beauty</def>
+<form type="sandhi">kōlatt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>a<c type="geminated">v</c><c type="glide">v</c></form>
+<def>that-</def>
+</entry>
+<entry>
+<form>uruv<c type="elided">u</c>-ē</form>
+<def>form</def>
+<form type="simple">uruvu</form>
+<form type="sandhi">uruv</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ām</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
