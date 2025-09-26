@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>40</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA40">
+<l>maṟittu maṭaneñcē vāyāluñ collik</l>
+<l>kuṟittut toḻutoṇṭar pātaṅ - kuṟittoruvar</l>
+<l>koḷḷāta tiṅkaṭ kuṟuṅkaṇṇi koṇṭārmāṭ</l>
+<l>ṭuḷḷātār kūṭṭa moruvu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Change, ignorant heart, speaking with the mouth,</l>
+<l>intent on the feet of the servants who worship with intent,</l>
+<l>renounce the company of those who do not think</l>
+<l>about him who took the moon as a short chaplet which is not taken by anyone.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA40"><interp type="alignment" select="0">11MR4M2G6MG38MG39MG18M,56MG65M</interp>
+<entry>
+<form>maṟittu</form>
+<def>changed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṭam</form>
+<def>inexperience</def>
+<form type="sandhi">maṭan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neñc<c type="elided">u</c>-ē</form>
+<def>heart</def>
+<form type="simple">neñcu</form>
+<form type="sandhi">neñc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>vāyāl-um</form>
+<def>mouth</def>
+<form type="simple">vāyāl</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>colli<c type="geminated">k</c></form>
+<def>spoken</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟittu<c type="geminated">t</c></form>
+<def>intended</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toḻu</form>
+<def>worship</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>toṇṭar</form>
+<def>servant</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pātam</form>
+<def>foot</def>
+<form type="sandhi">pātaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟitt<c type="elided">u</c></form>
+<def>intended</def>
+<form type="sandhi">kuṟitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oruvar</form>
+<def>one person</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koḷḷāta</form>
+<def>take-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṅkaḷ</form>
+<def>moon</def>
+<form type="sandhi">tiṅkaṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟum</form>
+<def>short</def>
+<form type="sandhi">kuṟuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇi</form>
+<def>chaplet</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭār</form>
+<def>taken-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṭṭ<c type="elided">u</c></form>
+<def>place</def>
+<form type="sandhi">māṭṭ</form>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷātār</form>
+<def>think-not-they</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṭṭam</form>
+<def>company</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oruvu</form>
+<def>renounce</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
