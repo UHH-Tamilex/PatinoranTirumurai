@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>37</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA37">
+<l>matiyā vaṭalavuṇar māmatiṉmūṉ ṟaṭṭa</l>
+<l>matiyār vaḷarcaṭaiyi ṉāṉai - matiyālē</l>
+<l>yeṉpākkai yālikaḻā tēttuvarē livvulaki</l>
+<l>leṉpākkai yāyppiṟavā rīṇṭu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If, without despising [his] bone[-adorned] body, they praise</l>
+<l>with [their] minds him with matted hair in which the moon grows</l>
+<l>who killed the three great fortresses of the unthinking murderous Asuras,</l>
+<l>they will not be born [again] here as bodies with bones.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA37"><interp type="alignment" select="0">28MG36MG5MG14MG21MG20M,57MG71M</interp>
+<entry>
+<form>matiyā</form>
+<def>think-not</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭal</form>
+<def>killing</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avuṇar</form>
+<def>Asuras</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mā</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>matil</form>
+<def>fortress</def>
+<form type="sandhi">matiṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mūṉṟ<c type="elided">u</c></form>
+<def>three</def>
+<form type="sandhi">mūṉṟ</form>
+</entry>
+<entry>
+<form>aṭṭa</form>
+<def>killed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mati</form>
+<def>moon</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ār</form>
+<def>be-full-</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷar</form>
+<def>grow</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭaiyiṉāṉai</form>
+<def>matted hair-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>matiyāl-ē</form>
+<def>mind</def>
+<form type="simple">matiyāl</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉp<c type="elided">u</c></form>
+<def>bone</def>
+<form type="sandhi"><c type="glide">y</c>eṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkaiyāl</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ikaḻāt<c type="elided">u</c></form>
+<def>despise-not</def>
+<form type="sandhi">ikaḻāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēttuvarēl</form>
+<def>they-praise-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>i<c type="geminated">v</c></form>
+<def>this-</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>ulakil</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉp<c type="elided">u</c></form>
+<def>bone</def>
+<form type="sandhi">eṉp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākkai</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āy<c type="geminated">p</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṟavār</form>
+<def>be-born-not-they</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īṇṭu</form>
+<def>here</def>
+</entry></standOff>
+</TEI>
