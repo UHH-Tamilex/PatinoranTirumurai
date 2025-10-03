@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>45</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA45">
+<l>pirāṉavaṉai nōkkum peruneṟiyē pēṇip</l>
+<l>pirāṉavaṉṟaṉ pēraruḷē vēṇṭip - pirāṉavaṉai</l>
+<l>yeṅkuṟṟā ṉeṉpīrka ḷeṉpōlvār cintaiyiṉu</l>
+<l>miṅkuṟṟāṉ kāṇpārk keḷitu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Cherishing the great path that looks upon him as the lord,</l>
+<l>desiring the great grace of him who is the lord, of him who is the lord</l>
+<l>you say “where does he abide?” More than in the minds of my like</l>
+<l>he abides here, easy for those who see him.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA45"><interp type="alignment" select="0">25MG26MG23MG30MG5MG13MG5M,60MG72M</interp>
+<entry>
+<form>pirāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉai</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkkum</form>
+<def>looking</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peru</form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṟi-<c type="glide">y</c>ē</form>
+<def>path</def>
+<form type="simple">neṟi</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pēṇi<c type="geminated">p</c></form>
+<def>cherished</def>
+</entry>
+<entry>
+<form>pirāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉ</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taṉ</form>
+<def>self</def>
+<form type="sandhi">ṟaṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēr</form>
+<def>great</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruḷ-ē</form>
+<def>grace</def>
+<form type="simple">aruḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>vēṇṭi<c type="geminated">p</c></form>
+<def>wanted</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pirāṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṉai</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṅk<c type="elided">u</c></form>
+<def>where</def>
+<form type="sandhi"><c type="glide">y</c>eṅk</form>
+</entry>
+<entry>
+<form>uṟṟāṉ</form>
+<def>had-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpīrkaḷ</form>
+<def>you say</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>me</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōlvār</form>
+<def>be-similar-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cintaiyiṉ-um</form>
+<def>thought</def>
+<form type="simple">cintaiyiṉ</form>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">oblique</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>iṅk<c type="elided">u</c></form>
+<def>here</def>
+<form type="sandhi">iṅk</form>
+</entry>
+<entry>
+<form>uṟṟāṉ</form>
+<def>had-he</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇpārkk<c type="elided">u</c></form>
+<def>see-they</def>
+<form type="sandhi">kāṇpārkk</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḷitu</form>
+<def>easy-it</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
