@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>54</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA54">
+<l>kāruruvak kaṇṭatteṅ kaṇṇutalē yeṅkoḷittā</l>
+<l>yōruruvāy niṉṉō ṭuḻitaruvā - ṉīruruva</l>
+<l>mēkattāṟceytaṉaiya mēṉiyā ṉiṉṉuṭaiya</l>
+<l>pākattāṉ kāṇāmē paṇṭu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Our [man with] an eye on the forehead, with a throat the colour of the rain cloud, where have you hidden?</l>
+<l>We did not earlier see the one with a part possessed by you,</l>
+<l>with a body that is as if made from a water-coloured cloud,</l>
+<l>they one who wanders with you in one form.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA54"><interp type="alignment" select="0">16MG10MG5MG13MG8MG11ML8ML24ML22MG6M,66MG65M</interp>
+<entry>
+<form>kār</form>
+<def>rain cloud</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruva<c type="geminated">k</c></form>
+<def>colour</def>
+</entry>
+<entry>
+<form>kaṇṭatt<c type="elided">u</c></form>
+<def>throat</def>
+<form type="sandhi">kaṇṭatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>em</form>
+<def>our</def>
+<form type="sandhi">eṅ</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nutal-ē</form>
+<def>forehead</def>
+<form type="simple">nutal</form>
+<form type="sandhi">ṇutal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṅk<c type="elided">u</c></form>
+<def>where</def>
+<form type="sandhi"><c type="glide">y</c>eṅk</form>
+</entry>
+<entry>
+<form>oḷittāy</form>
+<def>you hid</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōr</form>
+<def>one</def>
+</entry>
+<entry>
+<form>uruv<c type="elided">u</c></form>
+<def>form</def>
+<form type="sandhi">uruv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṉōṭ<c type="elided">u</c></form>
+<def>with you</def>
+<form type="sandhi">niṉṉōṭ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">sociative</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḻitaruvāṉ</form>
+<def>wander-he</def>
+<form type="sandhi">uḻitaruvā-ṉ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<form type="sandhi">ṉīr</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruvam</form>
+<def>form</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēkattāl</form>
+<def>cloud</def>
+<form type="sandhi">mēkattāṟ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceytaṉaiya</form>
+<def>made-like</def>
+<gramGrp>
+  <gram type="role">comparative</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉiyāṉ</form>
+<def>body-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>you</def>
+<form type="sandhi">ṉiṉ</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>uṭaiya</form>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pākattāṉ</form>
+<def>part-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇām-ē</form>
+<def>see-not-wee</def>
+<form type="simple">kāṇām</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>paṇṭu</form>
+<def>formerly</def>
+</entry></standOff>
+</TEI>
