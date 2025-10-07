@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>65</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA65">
+<l>kālaiyē pōṉṟilaṅku mēṉi kaṭumpakaliṉ</l>
+<l>vēlaiyē pōṉṟilaṅkum veṇṇīṟu - mālaiyiṉ</l>
+<l>ṟāṅkuruvē pōluñ caṭaikkaṟṟai maṟṟavaṟku</l>
+<l>vīṅkiruḷē pōlu miṭaṟu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Like the morning shines the body. Like the time</l>
+<l>of fierce midday shine the white ashes. The lasting  form</l>
+<l>of evening [red] resembles the bundle of matted hair. Then again, his</l>
+<l>throat resembles swelling darkness.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA65"><interp type="alignment" select="0">5MG6MG7ML20MG6MG27MG4M2G22MG10MG4MG6ML5M,63MG70M</interp>
+<entry>
+<form>kālai-<c type="glide">y</c>ē</form>
+<def>morning</def>
+<form type="simple">kālai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pōṉṟ<c type="elided">u</c></form>
+<def>been-similar</def>
+<form type="sandhi">pōṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkum</form>
+<def>shines</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēṉi</form>
+<def>body</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭum</form>
+<def>fierce</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakaliṉ</form>
+<def>midday</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēlai-<c type="glide">y</c>ē</form>
+<def>summer</def>
+<form type="simple">vēlai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pōṉṟ<c type="elided">u</c></form>
+<def>been-similar</def>
+<form type="sandhi">pōṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ilaṅkum</form>
+<def>shine</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷ</form>
+<def>white</def>
+<form type="sandhi">veṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṟu</form>
+<def>ashes</def>
+<form type="sandhi">ṇīṟu</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mālaiyiṉ</form>
+<def>evening</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāṅk<c type="elided">u</c></form>
+<def>endure</def>
+<form type="sandhi">ṟāṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uruv<c type="elided">u</c>-ē</form>
+<def>form</def>
+<form type="simple">uruvu</form>
+<form type="sandhi">uruv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pōlum</form>
+<def>it-resembles</def>
+<form type="sandhi">pōluñ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭai<c type="geminated">k</c></form>
+<def>matted hair</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṟṟai</form>
+<def>bundle</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟṟ<c type="elided">u</c></form>
+<def>besides</def>
+<form type="sandhi">maṟṟ</form>
+<gramGrp>
+  <gram type="role">interjection</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avaṟku</form>
+<def>that-one</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīṅk<c type="elided">u</c></form>
+<def>swell</def>
+<form type="sandhi">vīṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iruḷ-ē</form>
+<def>darkness</def>
+<form type="simple">iruḷ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pōlum</form>
+<def>it-resembles</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>miṭaṟu</form>
+<def>throat</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
