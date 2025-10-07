@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>62</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA62">
+<l>ētokku mētovvā tētāku mētākā</l>
+<l>tētokku meṉpataṉai yāraṟivār - pūtappāl</l>
+<l>vilvēṭa ṉāki vicayaṉō ṭēṟṟanāḷ</l>
+<l>valvēṭa ṉāṉa vaṭivu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Who knows how to say what is similar, what is not similar,</l>
+<l>what will become, what will not become, what is similar</l>
+<l>– to the form that is of the strong hunter on the day he engaged</l> 
+<l>with Vicayaṉ as a bow hunter, in a former time?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA62"><interp type="alignment" select="0">2MG7MG5MG2MG6MG4MG2MG52MG24M,58MG53M</interp>
+<entry>
+<form>ēt<c type="elided">u</c></form>
+<def>what</def>
+<form type="sandhi">ēt</form>
+</entry>
+<entry>
+<form>okkum</form>
+<def>equals</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēt<c type="elided">u</c></form>
+<def>what</def>
+<form type="sandhi">ēt</form>
+</entry>
+<entry>
+<form>ovvāt<c type="elided">u</c></form>
+<def>equals-not-it</def>
+<form type="sandhi">ovvāt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēt<c type="elided">u</c></form>
+<def>what</def>
+<form type="sandhi">ēt</form>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēt<c type="elided">u</c></form>
+<def>what</def>
+<form type="sandhi">ēt</form>
+</entry>
+<entry>
+<form>ākāt<c type="elided">u</c></form>
+<def>become-not-it</def>
+<form type="sandhi">ākāt</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēt<c type="elided">u</c></form>
+<def>what</def>
+<form type="sandhi">ēt</form>
+</entry>
+<entry>
+<form>okkum</form>
+<def>equals</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉpataṉai</form>
+<def>saying</def>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yār</form>
+<def>who</def>
+</entry>
+<entry>
+<form>aṟivār</form>
+<def>he-knows</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pūta<c type="geminated">p</c></form>
+<def>past</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāl</form>
+<def>part</def>
+<gramGrp>
+  <gram type="role">postposition</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vil</form>
+<def>bow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṭaṉ</form>
+<def>hunter</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āki</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vicayaṉōṭ<c type="elided">u</c></form>
+<def>Vijaya</def>
+<form type="sandhi">vicayaṉōṭ</form>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">proper name</gram>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟṟa</form>
+<def>met</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāḷ</form>
+<def>day</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>val</form>
+<def>strong</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēṭaṉ</form>
+<def>hunter</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṉa</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṭivu</form>
+<def>shape</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
