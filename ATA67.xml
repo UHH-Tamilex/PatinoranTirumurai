@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>67</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA67">
+<l>pāmpu matiyu maṭamāṉum pāypuliyun</l>
+<l>tāmpayiṉṟu tāḻaruvi tūṅkutalā - lāmpoṉ</l>
+<l>ṉuruvaṭivi lōṅkoḷicēr kaṇṇutalāṉ kōlat</l>
+<l>tiruvaṭiyiṉ mēya cilampu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>It is because the snake, the moon, the youthfull stag and the leaping tiger</l>
+<l>are accustomed [to it and] because the waterfall hangs there, the mountain slope</l>
+<l>that where dwells by the beautiful sacred foot of the one with a forehead with a high</l>
+<l>bright eye in the form the colour of gold.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA67"><interp type="alignment" select="0">4M2G2ML3MG3ML6MG9MG51MG43M,64MG64M</interp>
+<entry>
+<form>pāmp<c type="elided">u</c>-um</form>
+<def>snake</def>
+<form type="simple">pāmpu</form>
+<form type="sandhi">pāmp</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>mati-<c type="glide">y</c>um</form>
+<def>moon</def>
+<form type="simple">mati</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>maṭa</form>
+<def>youthfulness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>māṉ-um</form>
+<def>stag</def>
+<form type="simple">māṉ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>pāy</form>
+<def>leap</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puli-<c type="glide">y</c>um</form>
+<def>tiger</def>
+<form type="simple">puli</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>tām</form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>payiṉṟu</form>
+<def>accustomed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tāḻ</form>
+<def>hang-down</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aruvi</form>
+<def>waterfall</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tūṅkutalāl</form>
+<def>hanging</def>
+<form type="sandhi">tūṅkutalā-l</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>uru</form>
+<def>form</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaṭivil</form>
+<def>shape</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōṅk<c type="elided">u</c></form>
+<def>become-high</def>
+<form type="sandhi">ōṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>oḷi</form>
+<def>brightness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēr</form>
+<def>join</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nutalāṉ</form>
+<def>forehead-he</def>
+<form type="sandhi">ṇutalāṉ</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">masculine singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kōla<c type="geminated">t</c></form>
+<def>beauty</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiru</form>
+<def>sacredness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭiyiṉ</form>
+<def>foot</def>
+</entry>
+<entry>
+<form>mēya</form>
+<def>dwelled</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cilampu</form>
+<def>mountain side</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
