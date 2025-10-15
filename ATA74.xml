@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>74</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA74">
+<l>ōta neṭuṅkaṭalka ḷettaṉaiyu muyttaṭṭa</l>
+<l>vētu niṟaintillai yeṉparāl - pētaiyarka</l>
+<l>ḷeṇṇā tiṭumpaliyā leṉṉō niṟaintavā</l>
+<l>kaṇṇār kapālak kamalam</l>
+      </lg>
+      <lg xml:lang="en">
+<l>It is without becoming full at all when however many flooding</l>
+<l>long oceans are directed [and] poured into it, so they say – the skull lotus</l>
+<l>of him with eyes that became full. What about the offerings</l>
+<l>placed [there] without counting by naive women?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA74"><interp type="alignment" select="0">3MR27MG7M2GMR7MG11MG19MG13MG32M,65MG63M</interp>
+<entry>
+<form>ōtam</form>
+<def>flood</def>
+<form type="sandhi">ōtan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭum</form>
+<def>long</def>
+<form type="sandhi">neṭuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṭalkaḷ</form>
+<def>seas</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ettaṉaiyum</form>
+<def>however-many</def>
+</entry>
+<entry>
+<form>uytt<c type="elided">u</c></form>
+<def>directed</def>
+<form type="sandhi">uytt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭṭa</form>
+<def>cooked</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ēt<c type="elided">u</c>-um</form>
+<def>which</def>
+<form type="simple">ētu</form>
+<form type="sandhi"><c type="glide">v</c>ēt</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>niṟaint<c type="elided">u</c></form>
+<def>filled</def>
+<form type="sandhi">niṟaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>illai</form>
+<def>not</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉpar-āl</form>
+<def>they say</def>
+<form type="simple">eṉpar</form>
+<form type="sandhi"><c type="glide">y</c>eṉpar</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">āl</m></gramGrp>
+</entry>
+<entry>
+<form>pētaiyarkaḷ</form>
+<def>foolish women</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṇṇāt<c type="elided">u</c></form>
+<def>count-not</def>
+<form type="sandhi">eṇṇāt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭum</form>
+<def>placing</def>
+</entry>
+<entry>
+<form>paliyāl</form>
+<def>offering</def>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ-<c type="geminated">ṉ</c>ō</form>
+<def>what</def>
+<form type="simple">eṉ</form>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>niṟainta</form>
+<def>filled-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ā</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṇār</form>
+<def>eye-they</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kapāla<c type="geminated">k</c></form>
+<def>skull</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kamalam</form>
+<def>lotus</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
