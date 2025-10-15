@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+             <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>73</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+       </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA73">
+<l>karuttiṉā ṉīkarutiṟ ṟellā muṭaṉē</l>
+<l>tiruttalāñ cikkeṉa nāṉcoṉṉēṉ - paruttaraṅka</l>
+<l>veḷḷanī rēṟṟā ṉaṭikkamala nīvirumpi</l>
+<l>yuḷḷamē yeppōtu mōtu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>There will be perfecting together all you intended with</l>
+<l>[your] intention. I have told [you] firmly. Recite all the time,</l> 
+<l>mind, desiring the feet lotuses of him who receives</l>
+<l>the flooding water with huge waves.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA73"><interp type="alignment" select="0">10ML9MG9MG40MG23MR15MG12M,58MG65M</interp>
+<entry>
+<form>karuttiṉāl</form>
+<def>intention</def>
+<form type="sandhi">karuttiṉāṉ</form>
+<gramGrp>
+  <gram type="role">instrumental</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<form type="sandhi">ṉī</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karutiṟṟ<c type="elided">u</c></form>
+<def>intended-it</def>
+<form type="sandhi">karutiṟṟ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaṉ-ē</form>
+<def>together</def>
+<form type="simple">uṭaṉ</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tiruttal</form>
+<def>perdecting</def>
+<gramGrp>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ām</form>
+<def>becomes</def>
+<form type="sandhi">āñ</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cikkeṉa</form>
+<def>firmly</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>coṉṉēṉ</form>
+<def>I spoke</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paru<c type="geminated">t</c></form>
+<def>big</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>taraṅkam</form>
+<def>wave</def>
+<form type="sandhi">taraṅka</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷḷa</form>
+<def>flood</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīr</form>
+<def>water</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟṟāṉ</form>
+<def>received-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi<c type="geminated">k</c></form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kamalam</form>
+<def>lotus</def>
+<form type="sandhi">kamalan</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>virumpi</form>
+<def>desired</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uḷḷam-ē</form>
+<def>inside</def>
+<form type="simple">uḷḷam</form>
+<form type="sandhi"><c type="glide">y</c>uḷḷam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eppōtum</form>
+<def>all-times</def>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōtu</form>
+<def>recite</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

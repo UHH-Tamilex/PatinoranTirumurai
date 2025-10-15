@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>72</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA72">
+<l>kaṇṭentai yeṉṟiṟaiñcik kaippaṇiyāṉ ceyyēṉē</l>
+<l>laṇṭam peṟiṉu matuvēṇṭēṉ - ṟuṇṭañcēr</l>
+<l>viṇṇāḷun tiṅkaḷāy mikkulaka mēḻiṉukkuṅ</l>
+<l>kaṇṇāḷā vīteṉ karuttu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If I don’t act in order to humble myself, seeing [you and] bowing, saying “my father”,</l>
+<l>even if I were to gain the cosmic egg, I would not want it, you with</l>
+<l>the moon who rules heaven joined by a piece, you much husband of the seven</l>
+<l>worlds. This is my intention.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA72"><interp type="alignment" select="0">4MG9MG37MG41MG13M2G12MG9M,64MG67M</interp>
+<entry>
+<form>kaṇṭ<c type="elided">u</c></form>
+<def>seen</def>
+<form type="sandhi">kaṇṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>entai</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>eṉṟ<c type="elided">u</c></form>
+<def>said</def>
+<form type="sandhi"><c type="glide">y</c>eṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaiñci<c type="geminated">k</c></form>
+<def>bowed</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaippaṇi</form>
+<def>hand-service</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yāṉ</form>
+<def>I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceyyēṉēl</form>
+<def>do-not-I-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">negative</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇṭam</form>
+<def>cosmic egg</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟiṉ-um</form>
+<def>obtain-if-even</def>
+<form type="simple">peṟiṉ</form>
+<gramGrp>
+  <gram type="role">concessive</gram>
+  <gram type="role">conditional</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>atu</form>
+<def>that</def>
+</entry>
+<entry>
+<form>vēṇṭēṉ</form>
+<def>want-not-I</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuṇṭam</form>
+<def>piece</def>
+<form type="sandhi">ṟuṇṭañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cēr</form>
+<def>join</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṇ</form>
+<def>heaven</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>āḷum</form>
+<def>ruling</def>
+<form type="sandhi"><c type="geminated">ṇ</c>āḷun</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiṅkaḷāy</form>
+<def>moon-you</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mikk<c type="elided">u</c></form>
+<def>been-much</def>
+<form type="sandhi">mikk</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakam</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēḻiṉukk<c type="elided">u</c>-um</form>
+<def>seven</def>
+<form type="simple">ēḻiṉukku</form>
+<form type="sandhi">ēḻiṉukk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṇṇāḷā</form>
+<def>husband</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>īt<c type="elided">u</c></form>
+<def>this</def>
+<form type="sandhi"><c type="glide">v</c>īt</form>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>my</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karuttu</form>
+<def>intention</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
