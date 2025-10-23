@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>90</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA90">
+<l>kūṟemakkī tentāy kuḷircaṭaiyai mītaḻittiṭ</l>
+<l>ṭēṟa mikapperuki ṉeṉceyti - cīṟi</l>
+<l>viḻittūrum vāḷaravum veṇmatiyu mīrttut</l>
+<l>teḻittōṭuṅ kaṅkait tirai</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Tell us this, out father: what shall you do when it becomes very big</l>
+<l>so that is rises, destroying on top [your] cool matted hair,</l>
+<l>the waves of the Gaṅgā, along with dragging along [and] troubling</l>
+<l>the hissing, looking, creeping bright snake and the white moon?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA90"><interp type="alignment" select="0">3MG5MG2MG21MG5MG3MG33MG11M2G9MG17M2G14M,67MG67M</interp>
+<entry>
+<form>kūṟ<c type="elided">u</c></form>
+<def>tell</def>
+<form type="sandhi">kūṟ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emakk<c type="elided">u</c></form>
+<def>us</def>
+<form type="sandhi">emakk</form>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">dative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īt<c type="elided">u</c></form>
+<def>this</def>
+<form type="sandhi">īt</form>
+</entry>
+<entry>
+<form>entāy</form>
+<def>my father</def>
+<gramGrp>
+  <gram type="role">vocative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuḷir</form>
+<def>coldness</def>
+</entry>
+<entry>
+<form>caṭaiyai</form>
+<def>matted hair</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mīt<c type="elided">u</c></form>
+<def>top</def>
+<form type="sandhi">mīt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻitt<c type="elided">u</c></form>
+<def>destroyed</def>
+<form type="sandhi">aḻitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭ<c type="elided">u</c></form>
+<def>placed</def>
+<form type="sandhi">iṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟa</form>
+<def>rise</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mika<c type="geminated">p</c></form>
+<def>be-much</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perukiṉ</form>
+<def>become-big-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+</entry>
+<entry>
+<form>ceyti</form>
+<def>do-you</def>
+<gramGrp>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīṟi</form>
+<def>raged</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḻitt<c type="elided">u</c></form>
+<def>opened-the-eyes</def>
+<form type="sandhi">viḻitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ūrum</form>
+<def>creeping</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāḷ</form>
+<def>light</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arav<c type="elided">u</c>-um</form>
+<def>snake</def>
+<form type="simple">aravu</form>
+<form type="sandhi">arav</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>veḷ</form>
+<def>white</def>
+<form type="sandhi">veṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mati-<c type="glide">y</c>um</form>
+<def>moon</def>
+<form type="simple">mati</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>īrttu<c type="geminated">t</c></form>
+<def>pulled</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>teḻittōṭ<c type="elided">u</c>-um</form>
+<def>troubled</def>
+<form type="simple">teḻittōṭu</form>
+<form type="sandhi">teḻittōṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṅkai<c type="geminated">t</c></form>
+<def>Gangā</def>
+</entry>
+<entry>
+<form>tirai</form>
+<def>wave</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
