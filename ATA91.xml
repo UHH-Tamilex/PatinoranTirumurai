@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>91</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA91">
+<l>tiraimaruvu ceñcaṭaiyāṉ cēvaṭikkē yāḷā</l>
+<l>yuraimaruvi yāmuṇarntōṅ kaṇṭīr - terimiṉō</l>
+<l>vimmaikku mammaikku mellā mamaintōmē</l>
+<l>yemmaip puṟamuraippa teṉ</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Being servants to the red feet of him with red matted hair joined by waves</l>
+<l>we have adopted [and] understood [his] word, see. Be clear [about this]:</l>
+<l>Us who are suited to this birth and the other,</l>
+<l>why slander us?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA91"><interp type="alignment" select="0">30M2G41MG9M2G9M2G15MG21MG2M,65MG70M</interp>
+<entry>
+<form>tirai</form>
+<def>wave</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruvu</form>
+<def>join-together</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">ceñ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>caṭaiyāṉ</form>
+<def>matted hair-he</def>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cē</form>
+<def>red</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭikk<c type="elided">u</c>-ē</form>
+<def>foot</def>
+<form type="simple">aṭikku</form>
+<form type="sandhi"><c type="glide">v</c>aṭikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āḷ</form>
+<def>man</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urai</form>
+<def>word</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruvi</form>
+<def>come-together</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yām</form>
+<def>we</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇarntōm</form>
+<def>we understod</def>
+<form type="sandhi">uṇarntōṅ</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇṭīr</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>terimiṉ-ō</form>
+<def>be-clear</def>
+<form type="simple">terimiṉ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>immaikk<c type="elided">u</c>-um</form>
+<def>tgis birth</def>
+<form type="simple">immaikku</form>
+<form type="sandhi"><c type="glide">v</c>immaikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ammaikk<c type="elided">u</c>-um</form>
+<def>that birth</def>
+<form type="simple">ammaikku</form>
+<form type="sandhi">ammaikk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ellām</form>
+<def>all</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>amaintōm-ē</form>
+<def>suited-we(part.n.p.a.1.pl.)</def>
+<form type="simple">amaintōm</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>emmai<c type="geminated">p</c></form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṟamuraippat<c type="elided">u</c></form>
+<def>slandering</def>
+<form type="sandhi">puṟamuraippat</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>what</def>
+</entry></standOff>
+</TEI>
