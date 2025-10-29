@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>100</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA100">
+<l>naṭakkiṟ paṭinaṭuṅku nōkkiṟ ṟicaivē</l>
+<l>miṭikki ṉulakaṉaittu mēṅku - maṭukkaṟ</l>
+<l>porumēṟō vāṉēṟō poṉṉoppāy niṉṉē</l>
+<l>ṟurumēṟō voṉṟā vurai</l>
+      </lg>
+      <lg xml:lang="en">
+<l>If it walks, the earth trembles, if if looks the directions burn,</l>
+<l>if it thunders that whole world is in panic. Is it a fighting bull</l>
+<l>from the mountain, it is a cow bull, is it a thunder stroke</l>
+<l>that is mounted by you who are like gold?, tell [me] for once.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA100"><interp type="alignment" select="0">19MR25MG6M2G22M2G6M2G16MG6M2G5MG6M,60MG62M</interp>
+<entry>
+<form>naṭakkiṉ</form>
+<def>walk-if</def>
+<form type="sandhi">naṭakkiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paṭi</form>
+<def>earth</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭuṅkum</form>
+<def>trembles</def>
+<form type="sandhi">naṭuṅkun</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nōkkiṉ</form>
+<def>look-at-if</def>
+<form type="sandhi">nōkkiṟ</form>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ticai</form>
+<def>direction</def>
+<form type="sandhi">ṟicai</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vēm</form>
+<def>panick</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭikkiṉ</form>
+<def>thunder-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulak<c type="elided">u</c></form>
+<def>world</def>
+<form type="sandhi">ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉaitt<c type="elided">u</c>-um</form>
+<def>whole</def>
+<form type="simple">aṉaittu</form>
+<form type="sandhi">aṉaitt</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ēṅkum</form>
+<def>laments</def>
+<form type="sandhi">ēṅku-m</form>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭukkal</form>
+<def>mountain side</def>
+<form type="sandhi">aṭukkaṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>porum</form>
+<def>fighting</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟ<c type="elided">u</c>-ō</form>
+<def>bull</def>
+<form type="simple">ēṟu</form>
+<form type="sandhi">ēṟ</form>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṉ</form>
+<def>cow</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟ<c type="elided">u</c>-ō</form>
+<def>bull</def>
+<form type="simple">ēṟu</form>
+<form type="sandhi">ēṟ</form>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>poṉ</form>
+<def>gold</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>oppāy</form>
+<def>equal-you</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">oblique</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>ēṟ<c type="elided">u</c></form>
+<def>rise</def>
+<form type="sandhi"><c type="geminated">ṉ</c>ēṟ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>urum</form>
+<def>thunder</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟ<c type="elided">u</c>-ō</form>
+<def>stroke</def>
+<form type="simple">ēṟu</form>
+<form type="sandhi">ēṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>oṉṟ<c type="elided">u</c></form>
+<def>one-it</def>
+<form type="sandhi"><c type="glide">v</c>oṉṟ</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>urai</form>
+<def>tell</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
