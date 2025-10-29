@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Aṟputat Tiruvvantāti</title> <num>97</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="ATA97">
+<l>maṟaittulaka mēḻiṉilum vaittāyō vaṉṟē</l>
+<l>luṟaippōṭu muṉkaik koṇṭāyō - niṟaittiṭ</l>
+<l>ṭuḷainteḻuntu nīyerippa mūvulaku muḷpuk</l>
+<l>kaḷainteḻunta centī yaḻal</l>
+      </lg>
+      <lg xml:lang="en">
+<l>Do you keep it hidden inside the seven worlds, [or] if not,</l>
+<l>do you hold it firmly in hand, when you, having filled [them]</l>
+<l>rise destructively [and] burn [them], the red flaming fire</l>
+<l>that rises entering the three worlds [and] mingling?</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#ATA97"><interp type="alignment" select="0">7MG12MG9MG15M2G14MG9MG3MG6MG22M2G8MG6MG16M,64MG75M</interp>
+<entry>
+<form>maṟaitt<c type="elided">u</c></form>
+<def>hidden</def>
+<form type="sandhi">maṟaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ulakam</form>
+<def>world</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēḻiṉil-um</form>
+<def>seven</def>
+<form type="simple">ēḻiṉil</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>vaittāy-ō</form>
+<def>you placed</def>
+<form type="simple">vaittāy</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṉṟēl</form>
+<def>if not</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṟaippōṭ<c type="elided">u</c>-um</form>
+<def>firmness</def>
+<form type="simple">uṟaippōṭu</form>
+<form type="sandhi">uṟaippōṭ</form>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uṉ</form>
+<def>your</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kai<c type="geminated">k</c></form>
+<def>hand</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṇṭāy-ō</form>
+<def>you took</def>
+<form type="simple">koṇṭāy</form>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>niṟaitt<c type="elided">u</c></form>
+<def>filled</def>
+<form type="sandhi">niṟaitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭ<c type="elided">u</c></form>
+<def>put</def>
+<form type="sandhi">iṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷaint<c type="elided">u</c></form>
+<def>suffered</def>
+<form type="sandhi">uḷaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻuntu</form>
+<def>risen</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nī</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>erippa</form>
+<def>burn</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mū</form>
+<def>three</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>ulak<c type="elided">u</c>-um</form>
+<def>world</def>
+<form type="simple">ulaku</form>
+<form type="sandhi"><c type="glide">v</c>ulak</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>uḷ</form>
+<def>inside</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pukk<c type="elided">u</c></form>
+<def>entered</def>
+<form type="sandhi">pukk</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḷaint<c type="elided">u</c></form>
+<def>mingled</def>
+<form type="sandhi">aḷaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻunta</form>
+<def>risen</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cem</form>
+<def>red</def>
+<form type="sandhi">cen</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tī</form>
+<def>fire</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aḻal</form>
+<def>fire</def>
+<gramGrp>
+  <gram type="role">root noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
