@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvalaṅkāṭṭu orāvatu mūtta Tiruppatikam</title> <num>6</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TT1.6">
+<l>paṭṭaṭi neṭṭukirp pāṟu kāṟpēy paruntoṭu kūkai pakaṇṭai yāntai</l>
+<l>kuṭṭiyiṭa muṭṭai kūkaip pēykaḷ kuṟunari ceṉṟaṇaṅ kāṭu kāṭṭiṟ</l>
+<l>piṭṭaṭit tuppuṟaṅ kāṭṭi liṭṭa piṇattiṉaip pērap puraṭṭi yāṅkē</l>
+<l>yaṭṭamē pāyaniṉ ṟāṭu meṅka ḷappa ṉiṭamtiru vālaṅ kāṭē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>The place of our father who dances constantly so as to spread in the eight [directions], wherever they turn over the corpse</l>
+<l>put in the cremation ground outside so that it jumps [and] moves, in the cremation ground where owls with eggs,</l>
+<l>demonesses, little jackals go [and] dance frightfully , while with tapping(?)  feet, long nails, ruined legs demonesses,</l>
+<l>owls together with kites, Pakaṇṭais and spotted owlets knock their knuckles on their heads, is Tiruvalaṅkāṭu.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TT1.6"><interp type="alignment" select="0">4MG7MG82MG5MG62M2G7MG9MG30M2GM,217M</interp>
+<entry>
+<form>paṭṭ<c type="elided">u</c></form>
+<def>tapped</def>
+<form type="sandhi">paṭṭ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṭi</form>
+<def>foot</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṭṭ<c type="elided">u</c></form>
+<def>long</def>
+<form type="sandhi">neṭṭ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ukir<c type="geminated">p</c></form>
+<def>nail</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pāṟu</form>
+<def>be-ruined</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>leg</def>
+<form type="sandhi">kāṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēy</form>
+<def>demoness</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>paruntoṭu</form>
+<def>kite</def>
+<gramGrp>
+  <gram type="role">sociative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūkai</form>
+<def>owl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pakaṇṭai</form>
+<def>Pakaṇṭai bird</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āntai</form>
+<def>spotted owl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭṭi</form>
+<def>knocked-knuckles</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>iṭa</form>
+<def>put</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṭṭai</form>
+<def>egg</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūkai<c type="geminated">p</c></form>
+<def>owl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēykaḷ</form>
+<def>demonesses</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṟu</form>
+<def>short</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nari</form>
+<def>jackal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ceṉṟ<c type="elided">u</c></form>
+<def>gone</def>
+<form type="sandhi">ceṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇaṅk<c type="elided">u</c></form>
+<def>torment</def>
+<form type="sandhi">aṇaṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭu</form>
+<def>dance</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭṭiṉ</form>
+<def>cremation ground</def>
+<form type="sandhi">kāṭṭiṟ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṭṭaṭittu<c type="geminated">p</c></form>
+<def>jumped</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṟam</form>
+<def>outside</def>
+<form type="sandhi">puṟaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭṭil</form>
+<def>cremation ground</def>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭṭa</form>
+<def>placed</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+  <gram type="role">perfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṇattiṉai<c type="geminated">p</c></form>
+<def>corpse</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēra<c type="geminated">p</c></form>
+<def>move</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puraṭṭiyāṅk<c type="elided">u</c>-ē</form>
+<def>overturned-there</def>
+<form type="simple">puraṭṭiyāṅku</form>
+<form type="sandhi">puraṭṭiyāṅk</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>aṭṭam-ē</form>
+<def>eight</def>
+<form type="simple">aṭṭam</form>
+<form type="sandhi"><c type="glide">y</c>aṭṭam</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pāya</form>
+<def>spread</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṉṟ<c type="elided">u</c></form>
+<def>constantly</def>
+<form type="sandhi">niṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">adverb</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āṭum</form>
+<def>dancing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṅkaḷ</form>
+<def>our</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>appaṉ</form>
+<def>father</def>
+<gramGrp>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṭam</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiruvālaṅkāṭ<c type="elided">u</c>-ē</form>
+<def>Tiruvalaṅkāṭu</def>
+<form type="simple">tiruvālaṅkāṭu</form>
+<form type="sandhi">tiruvālaṅkāṭ</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
