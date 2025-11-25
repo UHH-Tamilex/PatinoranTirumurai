@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Tiruvalaṅkāṭṭu iraṇṭāvatu mūtta Tiruppatikam</title> <num>3</num>.
+            <persName xml:lang="ta">Kāraikkālammaiyār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="TT2.3">
+<l>puṭkaḷ potutta pulālveṇ ṭalaiyaip puṟamē narikavva</l>
+<l>vaṭkeṉ ṟaḻaippa vāntai vīca varukē ciṟukūkai</l>
+<l>yuṭka viḻikka vūmaṉ veruṭṭa vōri katitteṅkum</l>
+<l>piṭka naṭṭam pēṇu miṟaivaṉ peyarum peruṅkāṭē</l>
+      </lg>
+      <lg xml:lang="en">
+<l>While outside jackals seize stinking white skulls that had been pecked by birds,</l>
+<l>wherever, while, in order to shreak harshly, owlets flap [their] wings,</l>
+<l>so that the littel owls nearby are in terror, hyenas howl to frighten owls,</l>
+<l>noisily the lord who cherishes dancing moves in the great cremation ground.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#TT2.3"><interp type="alignment" select="0">35M2G17MG22M2G87M2GM,169M</interp>
+<entry>
+<form>puṭkaḷ</form>
+<def>birds</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>potutta</form>
+<def>pecked</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pulāl</form>
+<def>flesh stench</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veḷ</form>
+<def>white</def>
+<form type="sandhi">veṇ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>talaiyai<c type="geminated">p</c></form>
+<def>head</def>
+<form type="sandhi">ṭalaiyai<c type="geminated">p</c></form>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>puṟam<c type="elided">u</c>-ē</form>
+<def>outside</def>
+<form type="simple">puṟamu</form>
+<form type="sandhi">puṟam</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>nari</form>
+<def>jackal</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kavva</form>
+<def>snatch</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṭkeṉṟ<c type="elided">u</c></form>
+<def>harshly</def>
+<form type="sandhi"><c type="glide">v</c>aṭkeṉṟ</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+  <gram type="role">ideophone</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aḻaippa</form>
+<def>shreak</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āntai</form>
+<def>spotted owl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vīca</form>
+<def>flap</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aruk<c type="elided">u</c>-ē</form>
+<def>nearness</def>
+<form type="simple">aruku</form>
+<form type="sandhi"><c type="glide">v</c>aruk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>ciṟu</form>
+<def>small</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūkai</form>
+<def>owl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>uṭka</form>
+<def>dread</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viḻikka</form>
+<def>open-eyes</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ūmaṉ</form>
+<def>owl</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veruṭṭa</form>
+<def>frighten</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>ōri</form>
+<def>hyena</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>katitteṅkum</form>
+<def>howled-wherever</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>piṭka</form>
+<def>make-noise</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>naṭṭam</form>
+<def>dance</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pēṇum</form>
+<def>cherishing</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṟaivaṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peyarum</form>
+<def>moves</def>
+<gramGrp>
+  <gram type="role">habitual future</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>perum</form>
+<def>big</def>
+<form type="sandhi">peruṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭ<c type="elided">u</c>-ē</form>
+<def>cremation ground</def>
+<form type="simple">kāṭu</form>
+<form type="sandhi">kāṭ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry></standOff>
+</TEI>
