@@ -6880,7 +6880,11 @@
 </entry>
 <entry>
 <form>tavic<c type="elided">u</c></form>
+<def>seat</def>
 <form type="sandhi">tavic</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ēṟi<c type="geminated">p</c></form>
@@ -6893,15 +6897,11 @@
 <form>piṉ-<c type="geminated">ṉ</c>um</form>
 <def>after</def>
 <form type="simple">piṉ</form>
-<gramGrp>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form>ōr</form>
 <def>one</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>kāmaram</form>
@@ -6920,8 +6920,6 @@
 <entry>
 <form>amaittu</form>
 <def>effected</def>
-<gramGrp>
-</gramGrp>
 </entry>
 <entry>
 <form>maṉṉum</form>
