@@ -27,8 +27,8 @@ jobs:
         run: |
           cd lib/_indexer
           yarn install
-          yarn pageindex '(?:TT1|TT2|TIMm|ATA|CePe)' "Patiṉōrān Tirumuṟai"
-          yarn todb '(?:TT1|TT2|TIMm|ATA|CePe)'
+          yarn pageindex '(?:TT1|TT2|TIMm|ATA|CePe|KKA)' "Patiṉōrān Tirumuṟai"
+          yarn todb '(?:TT1|TT2|TIMm|ATA|CePe|KKA)'
           yarn dbtohtml "Patiṉōrān Tirumuṟai"
           cd ../..
           git pull
