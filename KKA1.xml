@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kayilaipāti Kaḷattipāti Antāti</title> <num>1</num>.
+            <persName xml:lang="ta">nakkīratēva nāyanār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KKA1">
+<l>collum poruḷumē tūttiriyu neyyumā</l>
+<l>nalliṭiñci leṉṉuṭaiya nāvākac  collariya</l>
+<l>veṇpā viḷakkā viyaṉkayilai mēlirunta</l>
+<l>peṇpākark kēṟṟiṉēṉ peṟṟu</l>
+      </lg>
+      <lg xml:lang="en">
+<l>With word and meaning as the pure wick and oil,</l>
+<l>with my tongue as the good lamp bowl, I obtained</l>
+<l>[and] raised [this] Veṇpā difficult to speak as the lamp,</l> 
+<l>for him who in part is woman who sat on vast Kayilai.</l>
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KKA1"><interp type="alignment" select="0">4MG7MG10MG2MR4MG34MG16MG32MG12M,129M</interp>
+<entry>
+<form>col<c type="geminated">l</c>-um</form>
+<def>word</def>
+<form type="simple">col</form>
+<form type="sandhi">col<c type="geminated">l</c></form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>poruḷ-umē</form>
+<def>meaning</def>
+<form type="sandhi">poruḷumē</form>
+</entry>
+<entry>
+<form>tū<c type="geminated">t</c></form>
+<def>pure</def>
+</entry>
+<entry>
+<form>tiri-<c type="glide">y</c>um</form>
+<def>wick</def>
+<form type="simple">tiri</form>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ney<c type="geminated">y</c>-um</form>
+<def>oil</def>
+<form type="simple">ney</form>
+<form type="sandhi">ney<c type="geminated">y</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>ā</form>
+<def>as</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nal</form>
+<def>good</def>
+</entry>
+<entry>
+<form><c type="geminated">l</c>iṭiñcil</form>
+<def>lamp</def>
+</entry>
+<entry>
+<form>eṉ</form>
+<def>bow</def>
+</entry>
+<entry>
+<form><c type="geminated">ṉ</c>uṭaiya</form>
+<def>my</def>
+</entry>
+<entry>
+<form>nā</form>
+<def>tongue</def>
+</entry>
+<entry>
+<form><c type="glide">v</c>āka<c type="geminated">c</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>coll<c type="elided">u</c></form>
+<def>speak</def>
+<form type="sandhi">coll</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ariya</form>
+<def>difficult</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veṇpā</form>
+<def>veṇpā</def>
+</entry>
+<entry>
+<form>viḷakk<c type="elided">u</c></form>
+<def>lamp</def>
+<form type="sandhi">viḷakk</form>
+</entry>
+<entry>
+<form>ā</form>
+<def>as</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viyaṉ</form>
+<def>vast</def>
+</entry>
+<entry>
+<form>kayilai</form>
+<def>kayilai</def>
+</entry>
+<entry>
+<form>mēl</form>
+<def>upon</def>
+</entry>
+<entry>
+<form>irunta</form>
+<def>sat</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṇ</form>
+<def>woman</def>
+</entry>
+<entry>
+<form>pākarkk<c type="elided">u</c></form>
+<def>part</def>
+<form type="sandhi">pākarkk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ēṟṟiṉēṉ</form>
+<def>raised</def>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">first person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>peṟṟu</form>
+<def>obtained</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
