@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kayilaipāti Kaḷattipāti Antāti</title> <num>3</num>.
+            <persName xml:lang="ta">Nakkīratēva Nāyanār</persName>
+        </title>     
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KKA3">
+<l>aṭaintuymmi ṉammāṉai yummāvi taṉṉaik</l>
+<l>kuṭaintuṇṇa veṇṇiyaveṅ kūṟṟaṅ  kuṭaintunuṅ</l>
+<l>kaṇṇuḷē pārkkum poḻutu kayilāyat</l>
+<l>taṇṇalē kaṇṭī raraṇ</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KKA3"><interp type="alignment" select="0">6MG34MG37MG24MG5MG11M,122M</interp>
+<entry>
+<form>aṭaint<c type="elided">u</c></form>
+<def>reach</def>
+<form type="sandhi">aṭaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uymmiṉ</form>
+<def>escape</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ammāṉai</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>um</form>
+<def>you</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="geminated">m</c>āvi</form>
+<def>soul</def>
+</entry>
+<entry>
+<form>taṉṉai<c type="geminated">k</c></form>
+<def>self</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kuṭaint<c type="elided">u</c></form>
+<def>penetrating</def>
+<form type="sandhi">kuṭaint</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṇṇa</form>
+<def>eating</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>eṇṇiya</form>
+<def>counts</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vem</form>
+<def>cruel</def>
+<form type="sandhi">veṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūṟṟam</form>
+<def>death</def>
+<form type="sandhi">kūṟṟaṅ</form>
+</entry>
+<entry>
+<form>kuṭaintu</form>
+<def>penetratingly</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>num</form>
+<def>your</def>
+<form type="sandhi">nuṅ</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaṇ</form>
+<def>eye</def>
+</entry>
+<entry>
+<form><c type="geminated">ṇ</c>uḷ-ē</form>
+<def>into</def>
+<form type="simple">uḷ</form>
+<form type="sandhi"><c type="geminated">ṇ</c>uḷ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>pārkkum</form>
+<def>looks</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poḻutu</form>
+<def>time</def>
+</entry>
+<entry>
+<form>kayilāyatt<c type="elided">u</c></form>
+<def>Kayilai</def>
+<form type="sandhi">kayilāyatt</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṇṇal-ē</form>
+<def>majesty</def>
+<form type="simple">aṇṇal</form>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>kaṇṭīr</form>
+<def>looks</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>araṇ</form>
+<def>refuge</def>
+</entry></standOff>
+</TEI>
