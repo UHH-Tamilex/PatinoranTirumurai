@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti</title> <num>19</num>.
+            <persName xml:lang="ta">Nakkīratēva Nāyaṉār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nāyaṉār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KKA">
+<l>oruṅkā tuṭaṉēniṉ ṟōraiva remmai</l>
+<l>neruṅkāmaṉittamorukā—ṉeruṅkik</l>
+<l>karuṅkalōṅ kumpaṟ kayilāya mēyāṉ</l>
+<l>varuṅkolō nampāṉ matittu.</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">7MG4MG37MG20MG13MG10MG18M,114MG</interp>
+<entry>
+<form>oruṅkāt<c type="elided">u</c></form>
+<def>not-together</def>
+<form type="sandhi">oruṅkāt</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uṭaṉ-ē</form>
+<def>immediately</def>
+<form type="simple">uṭaṉ</form>
+<gramGrp>
+  <gram type="role">adverb</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>niṉṟōr</form>
+<def>they-stand</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aivar</form>
+<def>five-saints</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>emmai</form>
+<def>us</def>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neruṅkāma</form>
+<def>not-approaching</def>
+<gramGrp>
+  <gram type="role">negative</gram>
+  <gram type="role">verbal noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ṉittam</form>
+<def>everyday</def>
+</entry>
+<entry>
+<form>oru</form>
+<def>one</def>
+<gramGrp>
+  <gram type="role">masculine</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāl</form>
+<def>time</def>
+<form type="sandhi">kā</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>—</form>
+<def>–</def>
+</entry>
+<entry>
+<form>neruṅki<c type="geminated">k</c></form>
+<def>approached</def>
+<form type="sandhi">ṉeruṅki<c type="geminated">k</c></form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>karum</form>
+<def>black</def>
+<form type="sandhi">karuṅ</form>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kal</form>
+<def>stone</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ōṅk<c type="elided">u</c></form>
+<def>rises</def>
+<form type="sandhi">ōṅk</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>umpal</form>
+<def>elephant</def>
+<form type="sandhi">umpaṟ</form>
+</entry>
+<entry>
+<form>kayilāya<c type="elided">u</c></form>
+<def>Kayilai</def>
+<form type="sandhi">kayilāya</form>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēyāṉ</form>
+<def>dweller-he</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">masculine singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>varum-kolō</form>
+<def>come-will(inter.part.)</def>
+<form type="simple">varum</form>
+<form type="sandhi">varuṅ</form>
+<gramGrp>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">kolō</m></gramGrp>
+</entry>
+<entry>
+<form>nampāṉ</form>
+<def>trusted-one</def>
+<gramGrp>
+  <gram type="role">suffix</gram>
+  <gram type="role">locative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>matittu</form>
+<def>thinking</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

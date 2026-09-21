@@ -2,13 +2,15 @@
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 <?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Kayilaipāti Kaḷattipāti Antāti</title> <num>2</num>.
-            <persName xml:lang="ta">Nakkīratēva Nāyanār</persName>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti</title> <num>2</num>.
+            <persName xml:lang="ta">Nakkīratēva Nāyaṉār</persName>
         </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nāyaṉār</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,7 +29,7 @@
 <text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
-      <lg xml:id="KKA2">
+      <lg xml:id="KKA">
 <l>peṟṟa payaṉituvē yaṉṟē piṟantiyāṉ</l>
 <l>kaṟṟavarka ḷēttuñcīrk kāḷattik  koṟṟavarkkut</l>
 <l>tōḷākat tāṭaravañ cūḻntaṇinta vammāṉuk</l>
@@ -39,7 +41,7 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#KKA2"><interp type="alignment" select="0">13MG6M2G7MGMG51MG2MG11MG15MG20M,134MG</interp>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">13MG6M2G7MGMG51MG2MG11MG15MG20M,134MG</interp>
 <entry>
 <form>peṟṟa</form>
 <def>born</def>
@@ -50,14 +52,14 @@
 <entry>
 <form>payaṉ</form>
 <def>benefit</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>itu-<c type="glide">v</c>ē</form>
 <def>this</def>
 <form type="simple">itu</form>
-<gramGrp>
-  <gram type="role">neuter singular</gram>
-</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
@@ -86,7 +88,8 @@
 <form>kaṟṟavarkaḷ</form>
 <def>learned</def>
 <gramGrp>
-  <gram type="role">plural</gram>
+  <gram type="role">participial noun</gram>
+  <gram type="role">perfective aspect</gram>
   <gram type="role">honorific</gram>
 </gramGrp>
 </entry>
@@ -104,40 +107,55 @@
 </entry>
 <entry>
 <form>kāḷatti<c type="geminated">k</c></form>
-<def>kāḷatti</def>
+<def>Kāḷatti</def>
 <gramGrp>
-  <gram type="role">locative</gram>
+  <gram type="role">proper name</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>koṟṟavarkku<c type="geminated">t</c></form>
-<def>victorious</def>
+<def>victorious-they</def>
 <gramGrp>
+  <gram type="role">pronominalised noun</gram>
   <gram type="role">dative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>tōḷ</form>
 <def>shoulder</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ākatt<c type="elided">u</c></form>
 <def>chest</def>
 <form type="sandhi">ākatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>āṭ<c type="elided">u</c></form>
 <def>dance</def>
 <form type="sandhi">āṭ</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>aravam</form>
-<def>snake</def>
+<def>serpent</def>
 <form type="sandhi">aravañ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>cūḻnt<c type="elided">u</c></form>
-<def>around</def>
+<def>surrounded</def>
 <form type="sandhi">cūḻnt</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
@@ -147,6 +165,7 @@
 <form>aṇinta</form>
 <def>adorned</def>
 <gramGrp>
+  <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
@@ -161,6 +180,9 @@
 <entry>
 <form>āḷ</form>
 <def>servant</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>āka<c type="geminated">p</c></form>
@@ -171,7 +193,7 @@
 </entry>
 <entry>
 <form>peṟṟēṉ</form>
-<def>obtained</def>
+<def>I-obtained</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">singular</gram>

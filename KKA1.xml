@@ -2,13 +2,15 @@
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 <?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Kayilaipāti Kaḷattipāti Antāti</title> <num>1</num>.
-            <persName xml:lang="ta">Nakkīratēva Nāyanār</persName>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti</title> <num>1</num>.
+            <persName xml:lang="ta">Nakkīratēva Nāyaṉār</persName>
         </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nāyaṉār</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,41 +29,53 @@
 <text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
-      <lg xml:id="KKA1">
+      <lg xml:id="KKA">
 <l>collum poruḷumē tūttiriyu neyyumā</l>
 <l>nalliṭiñci leṉṉuṭaiya nāvākac  collariya</l>
 <l>veṇpā viḷakkā viyaṉkayilai mēlirunta</l>
 <l>peṇpākark kēṟṟiṉēṉ peṟṟu</l>
       </lg>
       <lg xml:lang="en">
-<l>
-
-</l>
+<!--put your translation here-->
       </lg>
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#KKA1"><interp type="alignment" select="0">4MG7MG10MG2MR4MG34MG16MG32MG12M,129M</interp>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">4MG7MG2MG8MG2MR4MG34MG16MG32MG12M,130M</interp>
 <entry>
 <form>col<c type="geminated">l</c>-um</form>
 <def>word</def>
 <form type="simple">col</form>
 <form type="sandhi">col<c type="geminated">l</c></form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
-<form>poruḷ-umē</form>
+<form>poruḷ-um-ē</form>
 <def>meaning</def>
-<form type="sandhi">poruḷumē</form>
+<form type="simple">poruḷ-um</form>
+<form type="sandhi">poruḷum</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
 <form>tū<c type="geminated">t</c></form>
 <def>pure</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>tiri-<c type="glide">y</c>um</form>
 <def>wick</def>
 <form type="simple">tiri</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
@@ -76,7 +90,7 @@
 </entry>
 <entry>
 <form>ā</form>
-<def>as</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">verbal root</gram>
 </gramGrp>
@@ -84,22 +98,34 @@
 <entry>
 <form>nal</form>
 <def>good</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="geminated">l</c>iṭiñcil</form>
 <def>lamp</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>eṉ</form>
-<def>bow</def>
+<def>my</def>
 </entry>
 <entry>
 <form><c type="geminated">ṉ</c>uṭaiya</form>
-<def>my</def>
+<def>possess</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>nā</form>
 <def>tongue</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="glide">v</c>āka<c type="geminated">c</c></form>
@@ -131,10 +157,13 @@
 <form>viḷakk<c type="elided">u</c></form>
 <def>lamp</def>
 <form type="sandhi">viḷakk</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>ā</form>
-<def>as</def>
+<def>become</def>
 <gramGrp>
   <gram type="role">verbal root</gram>
 </gramGrp>
@@ -142,10 +171,16 @@
 <entry>
 <form>viyaṉ</form>
 <def>vast</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kayilai</form>
-<def>kayilai</def>
+<def>Kayilai</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>mēl</form>
@@ -161,18 +196,24 @@
 <entry>
 <form>peṇ</form>
 <def>woman</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>pākarkk<c type="elided">u</c></form>
-<def>part</def>
+<def>part-he</def>
 <form type="sandhi">pākarkk</form>
 <gramGrp>
+  <gram type="role">pronominalised noun</gram>
   <gram type="role">dative</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>ēṟṟiṉēṉ</form>
-<def>raised</def>
+<def>I-raised</def>
 <gramGrp>
   <gram type="role">perfective aspect</gram>
   <gram type="role">singular</gram>
