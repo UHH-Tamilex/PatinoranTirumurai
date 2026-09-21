@@ -2,13 +2,15 @@
 <?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
 <?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>
-            <title xml:lang="ta">Kayilaipāti Kaḷattipāti Antāti</title> <num>3</num>.
-            <persName xml:lang="ta">Nakkīratēva Nāyanār</persName>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti</title> <num>3</num>.
+            <persName xml:lang="ta">Nakkīratēva Nāyaṉār</persName>
         </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nāyaṉār</editor>
       </titleStmt>
       <publicationStmt><p/></publicationStmt>
       <sourceDesc>
@@ -27,11 +29,11 @@
 <text xml:lang="ta" type="edition">
   <body>
     <div rend="parallel">
-      <lg xml:id="KKA3">
+      <lg xml:id="KKA">
 <l>aṭaintuymmi ṉammāṉai yummāvi taṉṉaik</l>
 <l>kuṭaintuṇṇa veṇṇiyaveṅ kūṟṟaṅ  kuṭaintunuṅ</l>
 <l>kaṇṇuḷē pārkkum poḻutu kayilāyat</l>
-<l>taṇṇalē kaṇṭī raraṇ</l>
+<l>taṇṇalē kaṇṭī raraṇ.</l>
       </lg>
       <lg xml:lang="en">
 <!--put your translation here-->
@@ -39,10 +41,10 @@
     </div>
   </body>
 </text>
-<standOff type="wordsplit" corresp="#KKA3"><interp type="alignment" select="0">6MG34MG37MG24MG5MG11M,122M</interp>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">6MG13MG21MG37MG24MG5MG12M,123MG</interp>
 <entry>
 <form>aṭaint<c type="elided">u</c></form>
-<def>reach</def>
+<def>reached</def>
 <form type="sandhi">aṭaint</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
@@ -53,37 +55,38 @@
 <def>escape</def>
 <gramGrp>
   <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
 </gramGrp>
 </entry>
 <entry>
-<form>ammāṉai</form>
+<form>ammāṉai-<c type="glide">y</c>um</form>
 <def>lord</def>
+<form type="simple">ammāṉai</form>
 <gramGrp>
   <gram type="role">accusative</gram>
 </gramGrp>
-</entry>
-<entry>
-<form><c type="glide">y</c>um</form>
-<def>you</def>
-<gramGrp>
-  <gram type="role">pronoun</gram>
-</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
 </entry>
 <entry>
 <form><c type="geminated">m</c>āvi</form>
 <def>soul</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>taṉṉai<c type="geminated">k</c></form>
 <def>self</def>
 <gramGrp>
+  <gram type="role">accusative</gram>
   <gram type="role">singular</gram>
   <gram type="role">third person</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>kuṭaint<c type="elided">u</c></form>
-<def>penetrating</def>
+<def>penetrated</def>
 <form type="sandhi">kuṭaint</form>
 <gramGrp>
   <gram type="role">absolutive</gram>
@@ -98,8 +101,9 @@
 </entry>
 <entry>
 <form><c type="glide">v</c>eṇṇiya</form>
-<def>counts</def>
+<def>counted</def>
 <gramGrp>
+  <gram type="role">perfective aspect</gram>
   <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
@@ -113,19 +117,22 @@
 </entry>
 <entry>
 <form>kūṟṟam</form>
-<def>death</def>
+<def>Death</def>
 <form type="sandhi">kūṟṟaṅ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kuṭaintu</form>
-<def>penetratingly</def>
+<def>penetrated</def>
 <gramGrp>
   <gram type="role">absolutive</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>num</form>
-<def>your</def>
+<def>you</def>
 <form type="sandhi">nuṅ</form>
 <gramGrp>
   <gram type="role">oblique</gram>
@@ -136,6 +143,9 @@
 <entry>
 <form>kaṇ</form>
 <def>eye</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form><c type="geminated">ṇ</c>uḷ-ē</form>
@@ -143,44 +153,56 @@
 <form type="simple">uḷ</form>
 <form type="sandhi"><c type="geminated">ṇ</c>uḷ</form>
 <gramGrp>
+  <gram type="role">postposition</gram>
   <gram type="role">locative</gram>
 </gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
 <form>pārkkum</form>
-<def>looks</def>
+<def>looking</def>
 <gramGrp>
-  <gram type="role">imperative</gram>
+  <gram type="role">peyareccam</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>poḻutu</form>
 <def>time</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry>
 <entry>
 <form>kayilāyatt<c type="elided">u</c></form>
 <def>Kayilai</def>
 <form type="sandhi">kayilāyatt</form>
 <gramGrp>
-  <gram type="role">locative</gram>
+  <gram type="role">optative</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>aṇṇal-ē</form>
 <def>majesty</def>
 <form type="simple">aṇṇal</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 <gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
 </entry>
 <entry>
 <form>kaṇṭīr</form>
-<def>looks</def>
+<def>see</def>
 <gramGrp>
   <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
 </gramGrp>
 </entry>
 <entry>
 <form>araṇ</form>
 <def>refuge</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
 </entry></standOff>
 </TEI>
