@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti </title> <num>36</num>.
+            <persName xml:lang="ta">Nakkīratēva Nayaṉār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nayaṉār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KKA">
+<l>ivaḷukku nallavā ṟeṇṇutirē liṉṟē</l>
+<l>tavaḷap poṭiyivaṇmēṟ cātti yivaḷukkuk</l>
+<l>kāṭṭumiṉkaḷ kāḷatti kāṭṭik kamaḻkoṉṟai</l>
+<l>cūṭṭumiṉka ṭīrun tuyā‌.</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">16MG12M2G81ML10M,122MG</interp>
+<entry>
+<form>ivaḷukku</form>
+<def>she</def>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">pronoun</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nalla</form>
+<def>good</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>āṟ<c type="elided">u</c></form>
+<def>way</def>
+<form type="sandhi"><c type="glide">v</c>āṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṇṇutirēl</form>
+<def>think-if</def>
+<gramGrp>
+  <gram type="role">conditional</gram>
+  <gram type="role">subjunctive</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟ<c type="elided">u</c>-ē</form>
+<def>today</def>
+<form type="simple">iṉṟu</form>
+<form type="sandhi">iṉṟ</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>tavaḷa<c type="geminated">p</c></form>
+<def>white</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>poṭi</form>
+<def>ash</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ivaḷ</form>
+<def>her</def>
+<form type="sandhi"><c type="glide">y</c>ivaṇ</form>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">pronoun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>mēl</form>
+<def>body</def>
+<form type="sandhi">mēṟ</form>
+</entry>
+<entry>
+<form>cātti</form>
+<def>smeared</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>ivaḷukku<c type="geminated">k</c></form>
+<def>she</def>
+<gramGrp>
+  <gram type="role">feminine singular</gram>
+  <gram type="role">pronoun</gram>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭṭumiṉkaḷ</form>
+<def>show</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāḷatti</form>
+<def>Kāḷatti</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṭṭi<c type="geminated">k</c></form>
+<def>shown</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kamaḻ</form>
+<def>fragrant</def>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>koṉṟai</form>
+<def>Laburnum</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cūṭṭumiṉkaḷ</form>
+<def>wear</def>
+<form type="sandhi">cūṭṭumiṉkaṭ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tīrum</form>
+<def>end</def>
+<form type="sandhi">ṭīrun</form>
+<gramGrp>
+  <gram type="role">neuter singular</gram>
+  <gram type="role">third person</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tuyar</form>
+<def>misery</def>
+<form type="sandhi">tuyā‌</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

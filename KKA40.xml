@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti </title> <num>40</num>.
+            <persName xml:lang="ta">Nakkīratēva Nayaṉār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nayaṉār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KKA">
+<l>añceḻuttuṅ kaṇṭī rarumaṟaika ḷāvaṉavu</l>
+<l>mañceḻuttuṅ kaṟka vaṇittāku—nañcavitta</l>
+<l>kāḷatti yāryārkkuṅ kāṇṭaṟ karitāyppōy</l>
+<l>nīḷattē niṉṟa neṟi.</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">3MG5M2G12ML18MG5M2G13MG8MG30M2G4MG12M2G11M,134MG</interp>
+<entry>
+<form>añc<c type="elided">u</c></form>
+<def>five</def>
+<form type="sandhi">añc</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻutt<c type="elided">u</c>-um</form>
+<def>syllables</def>
+<form type="simple">eḻuttu</form>
+<form type="sandhi">eḻutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṇṭīr</form>
+<def>see</def>
+<gramGrp>
+  <gram type="role">imperative</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arum</form>
+<def>difficult</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maṟaikaḷ</form>
+<def>vedas</def>
+<gramGrp>
+  <gram type="role">plural</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āvaṉavum</form>
+<def>becomes</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">imperfective aspect</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>añc<c type="elided">u</c></form>
+<def>five</def>
+<form type="sandhi">añc</form>
+<gramGrp>
+  <gram type="role">verbal root</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eḻutt<c type="elided">u</c>-um</form>
+<def>syllables</def>
+<form type="simple">eḻuttu</form>
+<form type="sandhi">eḻutt</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">um</m></gramGrp>
+</entry>
+<entry>
+<form>kaṟka</form>
+<def>learn</def>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">v</c>aṇitt<c type="elided">u</c></form>
+<def>near</def>
+<form type="sandhi"><c type="glide">v</c>aṇitt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ākum</form>
+<def>becomes</def>
+<form type="sandhi">āku—</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nañc<c type="elided">u</c></form>
+<def>poison</def>
+<form type="sandhi">nañc</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>avitta</form>
+<def>make-end</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāḷattiyār</form>
+<def>lord-Kāḷatti</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>yārkkum</form>
+<def>anyone</def>
+<form type="sandhi">yārkkuṅ</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāṇṭaṟkk<c type="elided">u</c></form>
+<def>seeing</def>
+<form type="sandhi">kāṇṭaṟk</form>
+<gramGrp>
+  <gram type="role">dative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>arit<c type="elided">u</c></form>
+<def>difficult</def>
+<form type="sandhi">arit</form>
+<gramGrp>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">neuter singular</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>āy<c type="geminated">p</c></form>
+<def>become</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>pōy</form>
+<def>went</def>
+<gramGrp>
+  <gram type="role">auxiliary</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīḷatt<c type="elided">u</c>-ē</form>
+<def>distance</def>
+<form type="simple">nīḷattu</form>
+<form type="sandhi">nīḷatt</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>niṉṟa</form>
+<def>stood</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>neṟi</form>
+<def>path</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>

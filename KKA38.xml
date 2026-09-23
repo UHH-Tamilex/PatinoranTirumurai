@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti </title> <num>38</num>.
+            <persName xml:lang="ta">Nakkīratēva Nayaṉār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nayaṉār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KKA">
+<l>viḷaiyum viṉaiyaraviṉ veyya viṭattaik</l>
+<l>kaḷaimiṉō kāḷatti yāḷvār—vaḷaivi</l>
+<l>ṟiruntiyacī rīcaṉ ṟirunāma meṉṉu</l>
+<l>maruntiṉainīr vāyilē vaittu.</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">42MG21MGMGM2G15M2GM2G13ML17MG8M,57MG71MG</interp>
+<entry>
+<form>viḷaiyum</form>
+<def>ripened</def>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṉai</form>
+<def>karma</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>araviṉ</form>
+<def>snake</def>
+<gramGrp>
+  <gram type="role">oblique</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>veyya</form>
+<def>fierce</def>
+<gramGrp>
+  <gram type="role">adjective</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>viṭattai<c type="geminated">k</c></form>
+<def>poison</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḷaimiṉ-ō</form>
+<def>remove</def>
+<form type="simple">kaḷaimiṉ</form>
+<gramGrp>
+  <gram type="role">imperative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ō</m></gramGrp>
+</entry>
+<entry>
+<form>kāḷatti</form>
+<def>Kāḷatti</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>āḷvār</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">honorific</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vaḷaiv<c type="elided">u</c></form>
+<def>crookedness</def>
+<form type="sandhi">vaḷaiv</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>iṉṟ<c type="elided">u</c></form>
+<def>without</def>
+<form type="sandhi">iṟ</form>
+<gramGrp>
+  <gram type="role">negative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiruntiya</form>
+<def>been-perfect</def>
+<form type="sandhi">iruntiya</form>
+<gramGrp>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cīr</form>
+<def>fame</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>īcaṉ</form>
+<def>lord</def>
+<gramGrp>
+  <gram type="role">singular</gram>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉṟ<c type="elided">u</c></form>
+<def>that</def>
+<form type="sandhi">ṟ</form>
+</entry>
+<entry>
+<form>tiru</form>
+<def>sacred</def>
+<form type="sandhi">iru</form>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nāmam</form>
+<def>name</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>eṉṉum</form>
+<def>called</def>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>maruntiṉai</form>
+<def>medicine</def>
+<gramGrp>
+  <gram type="role">accusative</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>nīṉ</form>
+<def>your</def>
+<form type="sandhi">nīr</form>
+<gramGrp>
+  <gram type="role">oblique</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">second person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>vāyil-ē</form>
+<def>mouth</def>
+<form type="simple">vāyil</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>vaittu</form>
+<def>place</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
