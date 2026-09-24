@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0" type="application/xml"?>
+<?xml-stylesheet type="text/xsl" href="edition.xsl" ?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <script src="./lib/js/xslt-polyfill.min.js" xmlns="http://www.w3.org/1999/xhtml"></script>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>
+            <title xml:lang="ta">Kayilaipāti Kāḷattipāti Antāti </title> <num>60</num>.
+            <persName xml:lang="ta">Nakkīratēva Nāyaṉār</persName>
+        </title>     
+        <editor role="translator" xml:lang="en">Nakkīratēva Nāyaṉār</editor>
+      </titleStmt>
+      <publicationStmt><p/></publicationStmt>
+      <sourceDesc>
+        <msDesc xml:lang="en">
+          <msIdentifier>
+          </msIdentifier>
+           <msContents>
+            <summary><p></p>
+            </summary>
+          </msContents>    
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc><change/></revisionDesc>
+  </teiHeader>
+<text xml:lang="ta" type="edition">
+  <body>
+    <div rend="parallel">
+      <lg xml:id="KKA">
+<l>cārntārai yevviṭattuṅ kāppaṉavuñ cārntaṉpu</l>
+<l>kūrntārkku mutti koṭuppaṉavuṅ—kūrntuḷḷē</l>
+<l>mūḷat tiyāṉippār muṉvantu niṟpaṉavuṅ</l>
+<l>kāḷatti yārtaṅ kaḻal.</l>
+      </lg>
+      <lg xml:lang="en">
+<!--put your translation here-->
+      </lg>
+    </div>
+  </body>
+</text>
+<standOff type="wordsplit" corresp="#KKA"><interp type="alignment" select="0">35MG9MG6ML22MG3M2G7M2G46M,69MG65MG</interp>
+<entry>
+<form>cārntārai</form>
+<def>approached-they</def>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">accusative</gram>
+  <gram type="role">perfective aspect</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form><c type="glide">y</c>evviṭattum</form>
+<def>everywhere</def>
+<form type="sandhi"><c type="glide">y</c>evviṭattuṅ</form>
+</entry>
+<entry>
+<form>kāppaṉavum</form>
+<def>protect</def>
+<form type="sandhi">kāppaṉavuñ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>cārnt<c type="elided">u</c></form>
+<def>joined</def>
+<form type="sandhi">cārnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>aṉpu</form>
+<def>love</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūrnt<c type="elided">u</c></form>
+<def>full-of</def>
+<form type="sandhi">kūrnt</form>
+<gramGrp>
+  <gram type="role">peyareccam</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>ārkkum</form>
+<def>whom</def>
+</entry>
+<entry>
+<form>mutti</form>
+<def>liberation</def>
+</entry>
+<entry>
+<form>koṭuppaṉavum</form>
+<def>give</def>
+<form type="sandhi">koṭuppaṉavuṅ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kūrnt<c type="elided">u</c></form>
+<def>abounded</def>
+<form type="sandhi">kūrnt</form>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>uḷḷ<c type="elided">u</c>-ē</form>
+<def>heart</def>
+<form type="simple">uḷḷu</form>
+<form type="sandhi">uḷḷ</form>
+<gramGrp>
+  <gram type="role">locative</gram>
+</gramGrp>
+<gramGrp type="particle"><m type="enclitic">ē</m></gramGrp>
+</entry>
+<entry>
+<form>mūḷatt<c type="elided">u</c></form>
+<def>sincerely</def>
+<form type="sandhi">mūḷatt</form>
+<gramGrp>
+  <gram type="role">infinitive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tiyāṉippār</form>
+<def>meditate-they(part.ni.a.pl.|3.)</def>
+<form type="sandhi">iyāṉippār</form>
+<gramGrp>
+  <gram type="role">imperfective aspect</gram>
+  <gram type="role">plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>muṉ</form>
+<def>infront</def>
+</entry>
+<entry>
+<form>vantu</form>
+<def>come</def>
+<gramGrp>
+  <gram type="role">absolutive</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>niṟpaṉavum</form>
+<def>remain</def>
+<form type="sandhi">niṟpaṉavuṅ</form>
+<gramGrp>
+  <gram type="role">participial noun</gram>
+  <gram type="role">neuter plural</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kāḷatti<c type="glide">y</c>ār</form>
+<def>lord-Kāḷatti</def>
+<gramGrp>
+  <gram type="role">proper name</gram>
+  <gram type="role">pronominalised noun</gram>
+  <gram type="role">honorific</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>tam</form>
+<def>his</def>
+<form type="sandhi">taṅ</form>
+<gramGrp>
+  <gram type="role">pronoun</gram>
+  <gram type="role">singular</gram>
+  <gram type="role">third person</gram>
+</gramGrp>
+</entry>
+<entry>
+<form>kaḻal</form>
+<def>feet</def>
+<gramGrp>
+  <gram type="role">noun</gram>
+</gramGrp>
+</entry></standOff>
+</TEI>
