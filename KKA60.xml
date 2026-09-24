@@ -136,9 +136,10 @@
 </entry>
 <entry>
 <form>tiyāṉippār</form>
-<def>meditate-they(part.ni.a.pl.|3.)</def>
+<def>meditate-they</def>
 <form type="sandhi">iyāṉippār</form>
 <gramGrp>
+  <gram type="role">participial noun</gram>
   <gram type="role">imperfective aspect</gram>
   <gram type="role">plural</gram>
   <gram type="role">third person</gram>
